@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  # 1. ネットワーク（VPC）を作ってね
+  MyVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+
+  # 2. サーバー（EC2）を立ててね
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      # 
+      ImageId: '{{resolve:ssm:/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-6.1-x86_64}}'
+      InstanceType: t3.micro
+      KeyName: my-aws-key # 
