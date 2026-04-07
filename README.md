@@ -23,7 +23,7 @@ CloudFormation（IaC）を使用して、AWS上にVPC環境とWebサーバー（
 
 ## ✅ 動作確認
 ブラウザにて Apache のテストページが表示されることを確認しました。
-![成功画面](./images/AWS EC2 Success！画面.png)
+![成功画面](./images/EC2 Success！.png)
 
 ## 💡 学んだこと
 - **ログの追い方**: CloudFormationの「イベント」タブで、赤くなっている根本原因を探す重要性。
