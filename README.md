@@ -3,7 +3,7 @@
 CloudFormation（IaC）を使用して、AWS上にVPC環境とWebサーバー（EC2）を自動構築しました。エラーの特定から解決、そして構成の図解までの記録です。
 
 ## 🏗️ システム構成図
-![システム構成図](./images/システム構成図.drawio.png)
+![システム構成図](./images/システム構成図1.drawio.png)
 
 ---
 
@@ -38,7 +38,7 @@ CloudFormation（IaC）を使用して、AWS上にVPC環境とWebサーバー（
 - ゼロからVPCネットワークを構築し、EC2上でWebサーバーを公開する。
 
 ## 🏗️ システム構成図
-![システム構成図](./images/システム構成図.drawio.png)
+![システム構成図](./images/システム構成図2.drawio.png)
 
 
 ### 2. トラブルシューティング（今回のハイライト）
