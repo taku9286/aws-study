@@ -32,7 +32,7 @@ CloudFormation（IaC）を使用したVPC環境の自動構築と、Webサーバ
 * **[ec2_instance_success.png](./images/ec2_instance_success.png)** EC2インスタンスが正常に稼働しているコンソール画面。
 
 ### ⚙️ AWSコンソール・ログ
-* **[2026-04-05 CREATE_COMPLETE.png](./images/2026-04-05%20CREATE_COMPLETE.png)** CloudFormationの構築完了（CREATE_COMPLETE）ログ。
+* **[.images/2026-04-05 CREATE_COMPLETE.png]** CloudFormationの構築完了（CREATE_COMPLETE）ログ。
 * **[2026-0405 ログインログ.png](./images/2026-0405%20%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E3%83%AD%E3%82%B0.png)** SSHログインおよびOS内での操作ログ。
 
 ---
