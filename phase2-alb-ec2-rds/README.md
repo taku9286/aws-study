@@ -33,6 +33,16 @@
 | **502 Bad Gateway** | インフラは正常だがEC2内部でWebサーバーが未起動 | SSH接続（EC2 Instance Connect）にてApacheを導入・起動し解消 |
 | **接続タイムアウト (SSH)** | インスタンスへのパブリックIP付与設定の不足 | テンプレートに `AssociatePublicIpAddress: true` を追記 |
 
+## 📸 構築エビデンス（証拠）
+
+### 1. インフラ自動構築の完了
+![CloudFormation完了](./cfn-resource-complete.png)
+*CloudFormationにより、すべてのリソースが正常にデプロイされたことを確認。*
+
+### 2. 外部からのアクセス成功
+![Webアクセス成功](./web-access-success.png)
+*ALBのDNS名経由で、EC2上のWebサーバーからレスポンスが返ってくることを確認。*
+
 ## 📈 今後の課題
 - Route53を用いた独自ドメインの適用とHTTPS化。
 - Auto Scalingグループの導入による、負荷に応じたサーバーの自動増減の検証。
