@@ -36,14 +36,12 @@
 ## 📸 構築エビデンス（証拠）
 
 ### 1. インフラ自動構築の完了
-![CloudFormation完了](./cfn-resource-complete.png)
+![CloudFormation成功画面](./cfn-success.png)
 *CloudFormationにより、すべてのリソースが正常にデプロイされたことを確認。*
 
 ### 2. 外部からのアクセス成功
-![Webアクセス成功](./web-access-success.png)
+![EC2ログイン画面](./ec2-login-terminal.png)
 *ALBのDNS名経由で、EC2上のWebサーバーからレスポンスが返ってくることを確認。*
-
-## 📈 今後の課題
 - Route53を用いた独自ドメインの適用とHTTPS化。
 - Auto Scalingグループの導入による、負荷に応じたサーバーの自動増減の検証。
 
