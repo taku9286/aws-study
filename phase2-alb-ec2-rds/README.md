@@ -5,7 +5,7 @@
 本プロジェクトでは、AWS CloudFormation（IaC）を用いて、スケーラビリティと高可用性を備えたWebインフラを自動構築しました。手動構築での経験を活かし、コードによる再現性と正確性を重視した設計を行っています。
 
 ## 🏗 アーキテクチャ構成
-[ここに構成図の画像を挿入する予定]
+![アーキテクチャ構成図](./images/architecture-diagram.png)
 
 - **Public Subnets**: 2つのAvailability Zone（AZ）に跨るマルチAZ構成
 - **ALB (Application Load Balancer)**: 外部からのトラフィックを分散
