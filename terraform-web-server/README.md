@@ -15,4 +15,5 @@ Terraformを使用して、AWS上にApache Webサーバーを自動構築する�
 
 ## 実行結果
 ブラウザからパブリックIPにアクセスし、以下の画面が表示されることを確認済みです。
-![Hello from Terraform](./terraform-web-server/Hello from Terraform..png)
+![Hello from Terraform](./terraform-web-server/Hello_from_Terraform..png)
+
