@@ -21,7 +21,7 @@ EC2起動時に以下の処理を自動実行するように設定していま�
 自分で設計したネットワークの全体像です。
 ユーザーからインターネットを経由して、どのようにEC2サーバーへ辿り着くかのフローを可視化しました。
 
-![System Architecture](./my-sketch-image.jpg)
+![System Architecture](./my-sketch-image.jpg.heic)
 
 
 ### 図のポイント
