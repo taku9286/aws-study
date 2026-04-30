@@ -60,7 +60,7 @@ EC2起動時に以下の処理を自動実行するように設定していま�
 ## 📸 実行結果
 構築後、ブラウザからパブリックIPにアクセスして以下の画面が表示されることを確認しました。
 
-![Hello from Terraform](./terraform-web-server/Hello-from-Terraform.png)
+![Hello from Terraform](./Hello-from-Terraform.png)
 
 ---
 
